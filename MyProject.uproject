@@ -1,8 +1,38 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "FSR2",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MySQL",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4a497572d1014beab577112d5a37c813"
+		},
+		{
+			"Name": "Reflex",
+			"Enabled": true
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"AllDesktop",
 		"WindowsNoEditor"
